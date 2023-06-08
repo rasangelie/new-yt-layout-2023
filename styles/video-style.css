@@ -1,6 +1,11 @@
 .thumbnail {
     width: 100%;
     border-radius: 14px;
+    transition: border-radius 0.3s;
+}
+
+.thumbnail:hover {
+    border-radius: 0px;
 }
 
 .thumnail-row {
@@ -77,3 +82,5 @@
     font-size: 12px;
     font-weight: 500;
 }
+
+
