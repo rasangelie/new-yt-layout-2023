@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    height: 55px;
+}
+
+
+.material-symbols-outlined {
+    color: white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    /* background-color: lightcoral; */
+    width: 200px;
+}
+
+.menu {
+    margin: 0 20px;
+    
+    
+    
+}
+
+.middle-section {
+    /* background-color: lightblue; */
+    display: flex;
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #121212;
+}
+
+.search-bar::placeholder {
+    font-size: 16px;
+}
+
+.search-enter {
+    height: 39px;
+    width: 60px;
+    background-color: #222222;
+    border-style: none;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -60px;
+}
+
+.audio-search {
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 8px;
+    background-color: #181818;
+}
+
+.mic {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 180
+}
+
+.audio-search,
+.search-bar,
+.search-enter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-section {
+    background-color: lightcoral;
+    width: 200px;
+}
+
