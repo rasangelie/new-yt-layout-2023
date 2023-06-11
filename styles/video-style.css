@@ -63,6 +63,24 @@
     row-gap: 30px;
 }
 
+@media (max-width:500px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 501px) and (max-width:999x) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* @media (min-width:1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} */
+
 .thumnail-row, .creator-profile, .details {
     cursor: pointer;
 }
