@@ -61,25 +61,26 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 30px;
+    margin-top: 50px;
 }
 
-@media (max-width:500px) {
+@media (max-width: 720px) {
     .video-grid {
         grid-template-columns: 1fr;
     }
 }
 
-@media (min-width: 501px) and (max-width:999x) {
+@media (min-width: 721px) and (max-width:1124px){
     .video-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-/* @media (min-width:1000px) {
+@media (min-width: 1125px) {
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
-} */
+}
 
 .thumnail-row, .creator-profile, .details {
     cursor: pointer;
