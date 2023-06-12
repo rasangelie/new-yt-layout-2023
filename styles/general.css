@@ -13,3 +13,7 @@ main {
     padding-right: 60px;
     padding-top: 12px;
 }
+
+a {
+    text-decoration: none;
+}
