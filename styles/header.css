@@ -36,6 +36,7 @@ header {
     margin: 0 25px;
 }
 
+
 .middle-section {
     /* background-color: lightblue; */
     display: flex;
@@ -49,23 +50,34 @@ header {
     width: 0;
     display: flex;
     flex: 1;
-    padding: 12px;
-    border-radius: 20px;
+    padding: 10px 12px;
+    border-radius: 20px 0 0 20px;
     border-style: none;
     background-color: #121212;
+    color: rgb(221, 219, 219);
+    font-size: 16px;
+    z-index: 1;
+    
 }
 
 .search-bar::placeholder {
     font-size: 16px;
+    
 }
 
 .search-enter {
-    height: 39px;
+    height: 40px;
     width: 60px;
     background-color: #222222;
     border-style: none;
     border-radius: 0px 20px 20px 0px;
-    margin-left: -60px;
+    margin-left: -1px;
+   
+}
+
+
+.search-bar, .search-enter {
+    border: 0.3px solid #6d6d6d ;
 }
 
 .audio-search {
